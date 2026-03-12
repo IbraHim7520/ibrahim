@@ -4,9 +4,9 @@ import TechOrbit from "../FloatingOrbit";
 const Hero = () => {
   return (
     <main className="w-full h-screen bg-[#fcfcfd] overflow-hidden">
-      <section className='w-full bg-[url("https://assets.prebuiltui.com/images/components/hero-section/hero-grid-gradient-img.png")] bg-cover bg-center bg-no-repeat'>
+      <section className='w-full h-full  bg-[url("https://assets.prebuiltui.com/images/components/hero-section/hero-grid-gradient-img.png")] bg-cover bg-center bg-no-repeat'>
 
-        <div className="max-w-400 mx-auto px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-28 flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
+        <div className="max-w-400 h-full mx-auto px-6 sm:px-10 lg:px-16 xl:px-24 py-20 lg:py-28 flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
 
           {/* LEFT CONTENT */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-2xl">
